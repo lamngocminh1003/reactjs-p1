@@ -1,0 +1,28 @@
+.add-to-do {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+  .add-work {
+    border: none;
+    width: 300px;
+    height: 26px;
+    border-radius: 2px;
+    font-size: 16px;
+  }
+  .btn {
+    padding: 5px 15px;
+    color: beige;
+    cursor: pointer;
+    border: cornflowerblue;
+    border-radius: 2px;
+    font-size: 16px;
+    &.btn-add {
+      background-color: cornflowerblue;
+      &:hover {
+        background-color: rgb(93, 137, 219);
+        color: rgb(237, 237, 216);
+      }
+    }
+  }
+}

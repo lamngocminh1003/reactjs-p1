@@ -1,0 +1,53 @@
+.btn {
+  width: 90px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  color: beige;
+  &.btn-submit {
+    background-color: #3b75cc;
+    &:hover {
+      background-color: #29569a;
+    }
+  }
+  &.btn-show {
+    background-color: #39c866;
+    &:hover {
+      background-color: #1c7124;
+    }
+  }
+  &.btn-hide {
+    background-color: #f3961d;
+    &:hover {
+      background-color: #c5811c;
+    }
+  }
+  &.btn-delete {
+    background-color: #ea2c06;
+    &:hover {
+      background-color: #b90d0d;
+    }
+  }
+}
+.job-list {
+  margin: 25px;
+}
+.container {
+  width: 500px;
+  &.form-group {
+    margin: 20px;
+    width: 300px;
+    &.form-text {
+    }
+    &.form-control {
+      width: 300px;
+      &input {
+        color: #ea2c06;
+      }
+    }
+  }
+}
