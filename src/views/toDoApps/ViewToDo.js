@@ -19,6 +19,10 @@ class ViewToDo extends React.Component {
 
       //Update object's name property.
       listToDoCopy[objIndex].name = editToDo.name;
+      console.log(
+        "check listToDoCopy[objIndex].name",
+        listToDoCopy[objIndex].name
+      );
       this.props.editAWork(listToDoCopy);
       toast.success("Update to do successfully!");
       return;

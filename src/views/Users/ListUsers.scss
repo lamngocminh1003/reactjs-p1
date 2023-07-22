@@ -1,0 +1,39 @@
+.list-users-container {
+  .title {
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+  .btn {
+    padding: 8px 15px;
+    color: rgb(44, 44, 41);
+    cursor: pointer;
+    border: orange;
+    border-radius: 2px;
+    font-size: 20px;
+    width: 110px;
+    &.btn-detail {
+      background-color: orange;
+      &:hover {
+        background-color: rgb(223, 146, 5);
+        color: rgb(10, 10, 9);
+      }
+    }
+  }
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #07415e;
+}

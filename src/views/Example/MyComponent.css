@@ -1,0 +1,60 @@
+.btn {
+  width: 90px;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px;
+  outline: none;
+  cursor: pointer;
+  color: beige;
+}
+.btn.btn-submit {
+  background-color: #3b75cc;
+}
+.btn.btn-submit:hover {
+  background-color: #29569a;
+}
+.btn.btn-show {
+  background-color: #39c866;
+}
+.btn.btn-show:hover {
+  background-color: #1c7124;
+}
+.btn.btn-hide {
+  background-color: #f3961d;
+}
+.btn.btn-hide:hover {
+  background-color: #c5811c;
+}
+.btn.btn-delete {
+  background-color: #ea2c06;
+}
+.btn.btn-delete:hover {
+  background-color: #b90d0d;
+}
+
+.job-list {
+  margin: 25px;
+}
+
+.container {
+  width: 100%;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container form .form-group {
+  margin: 10px;
+  width: 300px;
+}
+.container form .form-group .form-control input {
+  border: none;
+  width: 300px;
+  height: 26px;
+  border-radius: 2px;
+  font-size: 16px;
+}/*# sourceMappingURL=MyComponent.css.map */

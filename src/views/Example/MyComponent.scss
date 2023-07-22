@@ -37,16 +37,25 @@
   margin: 25px;
 }
 .container {
-  width: 500px;
-  &.form-group {
-    margin: 20px;
-    width: 300px;
-    &.form-text {
-    }
-    &.form-control {
+  width: 100%;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .form-group {
+      margin: 10px;
       width: 300px;
-      &input {
-        color: #ea2c06;
+      .form-text {
+      }
+      .form-control {
+        input {
+          border: none;
+          width: 300px;
+          height: 26px;
+          border-radius: 2px;
+          font-size: 16px;
+        }
       }
     }
   }

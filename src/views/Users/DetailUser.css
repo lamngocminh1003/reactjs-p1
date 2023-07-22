@@ -1,0 +1,16 @@
+.btn {
+  padding: 8px 15px;
+  color: rgb(32, 32, 30);
+  cursor: pointer;
+  border: orange;
+  border-radius: 2px;
+  font-size: 20px;
+  width: 190px;
+}
+.btn.btn-back {
+  background-color: rgb(251, 144, 51);
+}
+.btn.btn-back:hover {
+  background-color: rgb(228, 128, 41);
+  color: rgb(28, 28, 26);
+}/*# sourceMappingURL=DetailUser.css.map */
